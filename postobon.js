@@ -51,7 +51,7 @@ function Formulario(){
         etiquetaNombre.classList.remove("is-invalid");
         etiquetaHoras.classList.remove("is-invalid");
         etiquetaExtras.classList.remove("is-invalid");
-        calcularSalario(cantidadHoras,horasExtras)
+        calcularSalario(cantidadHoras,horasExtras);
     }
 }
 
